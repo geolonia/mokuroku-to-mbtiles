@@ -1,0 +1,7 @@
+{
+  "name": "mokuroku-to-mbtiles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:geolonia/mokuroku-to-mbtiles.git",
+  "license": "MIT"
+}
