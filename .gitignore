@@ -2,4 +2,5 @@ node_modules/
 package-lock.json
 tiles/
 mokuroku.csv
-error.txt
+cyberjapandata.gsi.go.jp/
+.vscode
