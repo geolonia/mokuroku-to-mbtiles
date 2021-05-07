@@ -1,16 +1,55 @@
 # mokuroku-to-mbtiles
 
-https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf で配信されているベクトルタイルから、`.mbtiles` を生成する
-スクリプト。
+https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf で配信されているベクトルタイルから、`.mbtiles` を生成した。
 
-## スクリプト
+## 作業手順
 
-### (A) `bin/download-pbfs.js`
+1. [https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/mokuroku.csv.gz](https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/mokuroku.csv.gz)  から、png形式タイルの目録をダウンロード
 
-https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf で配信されているベクトルタイルをダウンロードします。
+2. VSCodeで、[`https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/z/x/y.pbf`](https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/z/x/y.pbf)　形式に置換。
 
-使い方
+3.mokuroku.csv の URL から pbfファイルをダウンロード
 
+```bash
+wget -i mokuroku.csv -m
 ```
-$ bin/download-pbfs.js
+
+2.ダウンロードしたpbfファイル数が、mokuroku.csvの行数と一致するか確認
+
+```bash
+find ./cyberjapandata.gsi.go.jp/ -name "*pbf" | wc -l
+  372558
+
+wc -l ./mokuroku.csv
+  372580 ./mokuroku.csv
+
+echo $(( 372580 - 372558 ))
+22
+```
+
+3. ダウンロードできてないURLを抽出
+
+- downloaded.txt：ダウンロードできたファイルのパス
+- error.txt：ダウンロードできなかったファイルのパス
+
+```bash
+caffeinate cat mokuroku.csv | sed 's/https:\/\//\.\//g' | xargs -n 1 find 1> downloaded.txt 2> error.txt &
+```
+
+4. error.txt の全てのURLが404になることを確認
+
+- fetch_result_error.txt：標準エラー出力を保存
+
+```bash
+cat error.txt | awk '/cyberjapandata.+pbf/{print $2}' | sed 's/\.\//https:\/\//g' | sed 's/:$//g' | xargs -n 1 wget 2> fetch_result_error.txt
+```
+
+5. ダウンロードしたファイルからmbtilesを生成
+
+mbtiles アップロード URL
+
+[https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing](https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing)
+
+```bash
+mb-util ./cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/ gsi.mbtiles --image_format=pbf &
 ```

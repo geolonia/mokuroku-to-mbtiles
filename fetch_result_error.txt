@@ -1,0 +1,132 @@
+--2021-05-07 18:23:08--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57663/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.2.133, 151.101.66.133, 151.101.130.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.2.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:08 エラー 404: Not Found。
+
+--2021-05-07 18:23:08--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57664/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:08 エラー 404: Not Found。
+
+--2021-05-07 18:23:08--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57665/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.130.133, 151.101.194.133, 151.101.66.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.130.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:08 エラー 404: Not Found。
+
+--2021-05-07 18:23:08--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57666/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:08 エラー 404: Not Found。
+
+--2021-05-07 18:23:08--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57667/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57668/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57669/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57670/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57671/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57672/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57673/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57674/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:09--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57675/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:09 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57676/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57677/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57678/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57679/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57680/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57681/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57682/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57683/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
+--2021-05-07 18:23:10--  https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/57684/26050.pbf
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp) をDNSに問いあわせています... 151.101.66.133, 151.101.130.133, 151.101.194.133, ...
+cyberjapandata.gsi.go.jp (cyberjapandata.gsi.go.jp)|151.101.66.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
+2021-05-07 18:23:10 エラー 404: Not Found。
+
