@@ -4,17 +4,21 @@ https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf で配�
 
 ## 作業手順
 
-1. [https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/mokuroku.csv.gz](https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/mokuroku.csv.gz)  から、png形式タイルの目録をダウンロード
+**1. 目録ダウンロード**  
+[https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/mokuroku.csv.gz](https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/mokuroku.csv.gz)  から、png形式タイルの目録をダウンロード
 
-2. VSCodeで、[`https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/z/x/y.pbf`](https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/z/x/y.pbf)　形式に置換。
+**2. ベクトルタイルのURLに置換**  
+VSCodeで、[`https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/z/x/y.pbf`](https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/z/x/y.pbf)　形式に置換。
 
-3.mokuroku.csv の URL から pbfファイルをダウンロード
+**3. pbfファイルダウンロード**  
+mokuroku.csv の URL から pbfファイルをダウンロード
 
 ```bash
 wget -i mokuroku.csv -m
 ```
 
-2.ダウンロードしたpbfファイル数が、mokuroku.csvの行数と一致するか確認
+**4. ダウンロードファイル数チェック**  
+ダウンロードしたpbfファイル数が、mokuroku.csvの行数と一致するか確認
 
 ```bash
 find ./cyberjapandata.gsi.go.jp/ -name "*pbf" | wc -l
@@ -27,7 +31,7 @@ echo $(( 372580 - 372558 ))
 22
 ```
 
-3. ダウンロードできてないURLを抽出
+**5. ダウンロードできてないタイルのURLを抽出**  
 
 - downloaded.txt：ダウンロードできたファイルのパス
 - error.txt：ダウンロードできなかったファイルのパス
@@ -36,7 +40,7 @@ echo $(( 372580 - 372558 ))
 caffeinate cat mokuroku.csv | sed 's/https:\/\//\.\//g' | xargs -n 1 find 1> downloaded.txt 2> error.txt &
 ```
 
-4. error.txt の全てのURLが404になることを確認
+**6. error.txt の全てのURLが404になることを確認**  
 
 - fetch_result_error.txt：標準エラー出力を保存
 
@@ -44,11 +48,10 @@ caffeinate cat mokuroku.csv | sed 's/https:\/\//\.\//g' | xargs -n 1 find 1> dow
 cat error.txt | awk '/cyberjapandata.+pbf/{print $2}' | sed 's/\.\//https:\/\//g' | sed 's/:$//g' | xargs -n 1 wget 2> fetch_result_error.txt
 ```
 
-5. ダウンロードしたファイルからmbtilesを生成
+**7. mbtilesを生成**  
 
-mbtiles アップロード URL
-
-[https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing](https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing)
+- mbtiles アップロード URL
+- [https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing](https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing)
 
 ```bash
 mb-util ./cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/ gsi.mbtiles --image_format=pbf &
