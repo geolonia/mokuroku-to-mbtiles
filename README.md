@@ -53,9 +53,6 @@ cat error.txt | awk '/cyberjapandata.+pbf/{print $2}' | sed 's/\.\//https:\/\//g
 
 **7. mbtilesを生成**  
 
-- mbtiles アップロード URL
-- [https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing](https://drive.google.com/file/d/1wgSO0HrfBMS4h2gy5HjF03f-Oh5Q0c5y/view?usp=sharing)
-
 ```bash
 mb-util ./cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/ gsi.mbtiles --image_format=pbf &
 ```
